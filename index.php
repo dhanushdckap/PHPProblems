@@ -17,30 +17,14 @@ echo $b["three"];
 //3. If you have the following array, how do you extract the value 3 from the array?
 /*
 $c = array(
-    array(
-        0,
-        1
-    ),
-    array(
-        2,
-        array(
-            3
-        )
-    )
+    array( 0,1 ),
+    array( 2,array( 3 ) )
 );
 */
 
 $c = array(
-    array(
-        0,
-        1
-    ),
-    array(
-        2,
-        array(
-            3
-        )
-    )
+    array( 0,1 ),
+    array( 2,array( 3 ) )
 );
 
 print_r($c[1][1][0]);
